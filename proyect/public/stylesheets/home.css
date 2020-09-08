@@ -1,0 +1,274 @@
+body {
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #252525;
+}
+header{
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+  align-items: center;
+  height: 101px;
+  background: linear-gradient(#034f84, #043f57);
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-top: 5px solid #034f84;
+  border-bottom: 5px solid #034f84;
+}
+a {
+  color: #00B7FF;
+}
+.redes {
+  text-decoration: none;
+  color: white;
+}
+.redes:hover{
+  text-decoration: none;
+  color: #00B7FF;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+img.logo {
+  margin-left: 0px;
+  border-radius: 20px;
+}
+.sec {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  height: 40px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.link:hover{
+  color: #00B7FF;
+  text-decoration: none;
+  transition: .5s;
+}
+.primero {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.ultimo {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.iconos{
+  width: 120px;
+}
+div.col-4.icono{
+  padding: 9px;
+  margin-right: 20px;
+}
+.icono {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+  height: 40px;
+  width: 10px;
+  background: linear-gradient(#034f84, #00B7FF);
+  border-radius: 20px;
+  color: white;
+}
+i {
+  font-size: 22px;
+}
+main {
+  padding-top: 101px;
+  background-color: #f1f2f6;
+}
+.quienes {
+  background-color: white;
+  margin-bottom: 20px;
+}
+h2 {
+  text-align: center;
+}
+h2.socios {
+  margin-bottom: 50px;
+}
+.sociosc{
+  padding-bottom: 90px;
+}
+p.quienes {
+  text-align: center;
+  font-weight: 600;
+  padding: 80px;
+  font-size: 28px;
+}
+img.foto{
+  width: 100px;
+}
+p.direc {
+  color: #999;
+  display: inline-block;
+  padding-left: 5px;
+}
+footer{
+  padding: 50px;
+  background: #252525;
+}
+footer.desk{
+  padding-right: 40px;
+  padding-left: 40px;
+}
+nav.col-9.desk {
+  display: flex;
+  justify-content: space-around;
+   align-items: center;
+}
+.mobile {
+  display: flex;
+}
+nav.col-9.desk {
+  display: none;
+}
+.desk {
+  display: none;
+}
+.navm {
+  color: white;display: flex;align-items: center;justify-content: center;
+}
+.celeste{
+  color: #00B7FF;
+}
+.navbar {
+  position: fixed !important;
+  width: 100%;
+  z-index: 9000;
+  background: #043f57;
+  left: -100%;
+  top: 97px;
+  transition: all .5s;
+  border-bottom: 5px solid #034f84;
+}
+.navbar2 {
+  position: absolute;
+  width: 100%;
+  z-index: 9000;
+  background:#043f57;
+  left: 0%;
+  top: 97px;
+  transition: all .5s;
+  border-bottom: 5px solid #034f84;
+}
+
+ul.navbarUl li a{
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+}
+ul.navbarUl li {
+  text-decoration: none;
+  list-style: none;
+}
+.quees {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.quees2 {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  background: #00B7FF;
+}
+.banner {
+  height: 40px;
+  background: linear-gradient(#034f84, #00B7FF);
+  padding-top: 101px;
+}
+.foot {
+  display: flex;
+  align-items: center;
+}
+.fot{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.redess {
+  text-align: start;
+  color: #3275fe;
+  font-size: 16px;
+  padding-left: 0px !important;
+  padding-right: 5px !important;
+
+}
+.iconoss{
+  display: flex;
+  justify-content: center;
+}
+.navFoot{
+  text-align: center;
+  list-style: none;
+}
+.linkk{
+  text-align: center;
+  color: #999;
+}
+.linkk:hover{
+  color: #3275fe;
+  text-decoration: none;
+  transition: .5s;
+}
+.loc {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size:23px;
+  color: #bababa !important;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+.line{
+  margin-bottom: 18px;
+  text-align: center;
+  font-size:23px;
+  color: #bababa;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.site {
+  padding-top: 10px;
+}
+@media(min-width: 1024px){
+  .mobile {
+    display: none;
+  }
+  .desk {
+    display: flex;
+  }
+  nav.col-8.desk {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .loc {
+    padding-left: 30px;
+    text-align: start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:23px;
+    color: white;
+  }
+  .linkk{
+    text-align: start;
+  }
+  .navFoot{
+    text-align: start;
+  }
+}

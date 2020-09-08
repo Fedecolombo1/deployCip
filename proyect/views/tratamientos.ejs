@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CIP Tratamientos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel='stylesheet' href='/stylesheets/tratamientos.css' />
+        <script src="https://kit.fontawesome.com/f959a7d319.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <%- include("partials/header.ejs")%>
+    <div class="col-12 banner"></div>
+    <main class="container-fluid">
+        <div class="row mobile" style="justify-content: space-around;"> 
+            <div class="col-12 col-lg-5 act">
+                <img src="/images/Psicología.jpg" alt="" class="col-12 img">
+                <h4 class="col-12 actT">Atención psicologica</h4>
+                <ul class="col-12 esp">
+                    <li class="esp">Niños, Adolescentes, Adultos</li>
+                    <li class="esp">Parejas - Familias</li>
+                    <li class="esp">Orientación a padres</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-5 act">
+                <img src="/images/Fonoaudiología.jpg" alt="" class="col-12 img">
+                <h4 class="col-12 actT">Atención fonoaudiologica</h4>
+                <ul class="col-12 esp">
+                    <li class="esp">Tratamiento para los trastornos de la comunicacion</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-5 act">
+                <img src="/images/Psicopedagogía.jpg" alt="" class="col-12 img">
+                <h4 class="col-12 actT">Atención psicopedagogica</h4>
+                <ul class="col-12 esp">
+                    <li class="esp">Clinica psicopedagogica</li>
+                    <li class="esp">Diagnostico y tratamiento de las dificultades de aprendizaje</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row desk" style="justify-content: space-around;"> 
+            <div class="col-10 row act">
+                <h4 class="col-12 actT">Psicología</h4>
+                <div class="col-12 desc">
+                    <ul class="col-8 esp">
+                        <li class="esp">Niños, Adolescentes, Adultos</li>
+                        <li class="esp">Parejas - Familias</li>
+                        <li class="esp">Orientación a padres</li>
+                    </ul>
+                    <img src="/images/Psicología.jpg" alt="" class="col-4 img">
+                </div>
+            </div>
+            <div class="col-10 row act">
+                <h4 class="col-12 actT">Fonoaudiología</h4>
+                <div class="col-12 desc">
+                    <ul class="col-8 esp">
+                        <li class="esp">Tratamiento para los trastornos de la comunicacion</li>
+                        
+                    </ul>
+                    <img src="/images/Fonoaudiología.jpg" alt="" class="col-4 img">
+                </div>
+            </div>
+            <div class="col-10 row act">
+                <h4 class="col-12 actT">Psicopedagogía</h4>
+                <div class="col-12 desc">
+                    <ul class="col-8 esp">
+                        <li class="esp">Clínica psicopedagógica</li>
+                        <li class="esp">Diagnóstico y tratamiento de las dificultades de aprendizaje</li>
+                    </ul>
+                    <img src="/images/Psicopedagogía.jpg" alt="" class="col-4 img">
+                </div>
+            </div>
+        </div>
+    </main>
+    <%- include("partials/footer.ejs")%>
+</body>
+</html>

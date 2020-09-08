@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Centro CIP Actividades</title>
+    <link rel='stylesheet' href='/stylesheets/actividadess.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f959a7d319.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <%- include("partials/header.ejs")%>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6" style="padding: 0px;">
+                <div class="col-12" style="display: flex; justify-content: center;padding: 0px;">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 100%;">
+                        <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/images/interior1.jpg" alt="..." style="width: 100%;height: 452px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/images/interior3.jpg" class="d-block w-100" alt="..." style="width: 100%;height: 452px;">
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" style="padding:0px;">
+                <div class="col-12 texto1">
+                    <h2 class="col-12" style="text-align: start;">Docencia e investigación</h2>
+                    <p class="col-12 texto">Desde los inicios del CIP, en el año 1983, realizamos ateneos, cursos y jornadas de capacitación, seminarios y grupos de estudio. Los mismos están dirigidos a psicólogos, docentes y profesionales del ámbito de la salud. Estas actividades se llevan a cabo en nuestra institución, ofreciendo un ámbito de formación y de participación, con profesionales de nuestra casa, así como también con profesionales invitados de otros ámbitos.</p>
+                </div>
+                <div class="col-12 texto2">
+                    <h2 class="col-12" style="text-align: start;">Supervisión</h2>
+                    <p class="col-12 texto">Realizamos supervisiones a otros profesionales del área de la psicología.</p>
+                </div>
+            </div>
+    </main>
+
+    <%- include("partials/footer.ejs")%>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
+

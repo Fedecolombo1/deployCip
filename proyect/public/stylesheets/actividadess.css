@@ -1,0 +1,25 @@
+main{
+    padding-top: 101px;
+    padding-bottom: 0px !important;
+    background-color: #023B63 !important;
+}
+.texto{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.texto1 {
+    background-color:#0569AF !important;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+h2.col-12{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.texto2{
+    background-color: #023B63;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
